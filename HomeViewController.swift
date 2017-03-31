@@ -14,7 +14,13 @@ class HomeViewController: UIViewController {
     @IBOutlet var PlayLabel: UILabel! 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.PlayLabel.text = "Ljubi"
+       
+    }
+    
+    @IBAction func Butt(sender: AnyObject) {
+         self.PlayLabel.text = "Ljubi"
         
     }
 }
+
+
