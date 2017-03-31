@@ -15,6 +15,7 @@
 		528791501E8E3E2D00FE9309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287914E1E8E3E2D00FE9309 /* LaunchScreen.storyboard */; };
 		5287915B1E8E3E2D00FE9309 /* Class2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287915A1E8E3E2D00FE9309 /* Class2Tests.swift */; };
 		528791661E8E3E2D00FE9309 /* Class2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528791651E8E3E2D00FE9309 /* Class2UITests.swift */; };
+		528791781E8E418D00FE9309 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528791771E8E418D00FE9309 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		528791611E8E3E2D00FE9309 /* Class2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Class2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528791651E8E3E2D00FE9309 /* Class2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class2UITests.swift; sourceTree = "<group>"; };
 		528791671E8E3E2D00FE9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528791771E8E418D00FE9309 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		528791411E8E3E2D00FE9309 /* Class2 */ = {
 			isa = PBXGroup;
 			children = (
+				528791771E8E418D00FE9309 /* HomeViewController.swift */,
 				528791421E8E3E2D00FE9309 /* AppDelegate.swift */,
 				528791441E8E3E2D00FE9309 /* ViewController.swift */,
 				528791461E8E3E2D00FE9309 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 				528791451E8E3E2D00FE9309 /* ViewController.swift in Sources */,
 				5287914B1E8E3E2D00FE9309 /* Class2.xcdatamodeld in Sources */,
 				528791431E8E3E2D00FE9309 /* AppDelegate.swift in Sources */,
+				528791781E8E418D00FE9309 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
